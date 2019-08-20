@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+            android:id="@+id/todayFixturesFragment"
+            android:icon="@drawable/soccer"
+            android:orderInCategory="1"
+            android:title="@string/fixtures" />
+
+    <item
+            android:id="@+id/competitionsFragment"
+            android:icon="@drawable/soccer_field"
+            android:orderInCategory="2"
+            android:title="@string/competition" />
+
+</menu>

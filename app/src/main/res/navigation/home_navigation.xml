@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools" android:id="@+id/home_navigation"
+            app:startDestination="@id/todayFixturesFragment">
+
+    <fragment android:id="@+id/todayFixturesFragment"
+              android:name="com.efhems.football.ui.home.TodayFixturesFragment"
+              android:label="Today's Fixtures"
+              tools:layout="@layout/fragment_today_fixtures"/>
+    <fragment android:id="@+id/competitionsFragment"
+              android:name="com.efhems.football.ui.home.CompetitionsFragment"
+              android:label="Competitions"/>
+</navigation>
